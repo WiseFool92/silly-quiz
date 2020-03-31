@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media="all">
-    <link rel='stylesheet' href='css/styles-personality-quiz.css' type='text/css' media="all">
     <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/script></script"></script>
+    <script src="js/script.js"></script>
+    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media="all">
+    <link rel='stylesheet' href='css/styles.css' type='text/css' media="all">
     <title>Silly Quiz</title>
   </head>
   <body>
+    <h1>Silly Quiz</h1>
     <div class="container">
-      <form id="checkbox">
-        <h>Are you the apple or the tree?</h>
-        <div id="question-1"></div>
-        <label>
-          <input type="checkbox" name="q1" value="a">
-          answer
-        </label>
-        
-      </form>
+      <div class="jumbotron">
+        <form id="checkbox">
+          <h2>Are you the apple or the tree?</h2>
+            <div id="question-1">
+              <input type="checkbox" name="q1" value="a">tree<br>
+              <input type="checkbox" name="q1" value="b">apple<br>
+              <input type="checkbox" name="q1" value="c">goat<br>
+              <button type="submit">Submit</button>
+            </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>

@@ -1,8 +1,7 @@
 $(document).ready(function() {
-  $("form#radio").submit(function(event) {
+  $("form#checkbox").submit(function(event) {
     event.preventDefault();
-
-    var firstquestion = $("input:checkbox[name=q1]:checked").val();
-    
-  })
-})
+    var firstQuestion = $("input:checkbox[name=q1]:checked").val();
+    console.log(firstQuestion);
+  });
+});
